@@ -1,0 +1,9 @@
+df <- data.frame("Serial_number" = 1:5, "Age" = c(20, 18, 30, 35, 22), "Name" = c("Arun","Seema", "Gavin", "Madav", "Satvik"))
+
+newdataAsc <- df[order(df$Age),]
+newdataAsc
+
+newdataDsc <- df[order(-df$Age),]
+newdataDsc
+
+
